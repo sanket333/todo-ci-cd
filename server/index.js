@@ -17,4 +17,4 @@ app.use("/user", userRouter)
 // DONT MISUSE THIS THANKYOU!!
 mongoose.connect('mongodb+srv://user:user@cluster1.jfb6q.mongodb.net/course?retryWrites=true&w=majority', { dbName: "course" })
 
-app.listen(3000, () => console.log('Server running on port 3000'));
+app.listen(3000, () => console.log('Server running on port 3000 '));
